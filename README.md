@@ -1,16 +1,46 @@
-### Hi there 👋
+function setup() {
 
-<!--
-**Fegabi190/Fegabi190** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+createCanvas(1000, 1000);
 
-Here are some ideas to get you started:
+background("salmon");
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+color(random(255), random(255), random(255));
+
+posicaoHorizontal = 200;
+
+posicaoVertical = 200;
+
+}
+
+function draw() {
+
+fill("pink");
+
+circle(posicaoVertical, posicaoHorizontal, 50);
+
+if(mouseX < posicaoHorizontal){
+
+posicaoHorizontal++;
+
+}
+
+if(mouseX > posicaoHorizontal){
+
+posicaoHorizontal--;
+
+}
+
+if(mouseY < posicaoVertical){
+
+posicaoVertical++;
+
+}
+
+if(mouseY > posicaoVertical){
+
+posicaoVertical--;
+
+}
+
+}
+

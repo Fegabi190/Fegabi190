@@ -1,46 +1,31 @@
-function setup() {
+### My name is Felipe Gabriel
 
-createCanvas(1000, 1000);
+👶Nasci no dia 19/03/2008, tenho 15 anos e sou o número 5 da chamada
 
-background("salmon");
+![Alt](https://media.tenor.com/ksHHDqx00acAAAAd/cope-roblox.gif)
 
-color(random(255), random(255), random(255));
+😎Eu gosto de jogos, música e gosto de roblox
 
-posicaoHorizontal = 200;
+![Alt](https://media.tenor.com/0hjOGLFaQa0AAAAd/lofi-girl-lofi.gif)
 
-posicaoVertical = 200;
+👾Quero me tornar um programador de jogos de alguma plataforma que eu ainda nao defini
 
-}
+![Alt](https://media.tenor.com/qUd2T4szitkAAAAd/roblox-oof.gif)
 
-function draw() {
+🥵 Sou armasexual (sexualmente atraido por armas calibre p90)
 
-fill("pink");
+![images](https://github.com/Fegabi190/Fegabi190/assets/136333592/41a07787-a763-48fa-ba95-715aec724ff1)
 
-circle(posicaoVertical, posicaoHorizontal, 50);
+😁 Como pode ver eu adoro jogar roblox e genshim impact
 
-if(mouseX < posicaoHorizontal){
+![Alt](https://media.tenor.com/Ss1X1Jz2Yc4AAAAd/mihoyo-genshin.gif)
 
-posicaoHorizontal++;
+🥪 Adoro comer Mequi e BEKA
 
-}
+![Alt](https://media.tenor.com/C8dl8UGgsREAAAAM/ratatouille-roblox.gif)
 
-if(mouseX > posicaoHorizontal){
+🦶 Quando possivel gosto de chutar necessitados e gays na rua (Nunca chutei um na vida)
 
-posicaoHorizontal--;
+![Alt](https://media.tenor.com/pxlObGAbqdIAAAAC/sad-crying.gif)
 
-}
-
-if(mouseY < posicaoVertical){
-
-posicaoVertical++;
-
-}
-
-if(mouseY > posicaoVertical){
-
-posicaoVertical--;
-
-}
-
-}
-
+### E CABO!
